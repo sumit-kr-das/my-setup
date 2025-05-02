@@ -1,0 +1,109 @@
+{
+	"workbench.iconTheme": "a-file-icon-vscode",
+	"editor.fontFamily": "Cascadia Code",
+	"editor.fontLigatures": true,
+	"code-runner.runInTerminal": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.fastScrollSensitivity": 20,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"tabnine.experimentalAutoImports": true,
+	"editor.fontSize": 18,
+	"editor.cursorBlinking": "smooth",
+	"code-runner.clearPreviousOutput": true,
+	"C_Cpp.updateChannel": "Insiders",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"terminal.integrated.tabs.enabled": true,
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"vsicons.dontShowNewVersionMessage": true,
+	"workbench.startupEditor": "none",
+	"editor.lineHeight": 2.5,
+	"explorer.confirmDelete": false,
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.tabs.location": "left",
+	"gitlens.defaultDateFormat": null,
+	"debug.javascript.autoAttachFilter": "disabled",
+	"files.autoSave": "afterDelay",
+	"vim.handleKeys": {
+		"<C-c>": false,
+		"<C-v>": false,
+		"<C-f>": false,
+		"<C-a>": false,
+		"<C-x>": false
+	},
+	"editor.renderWhitespace": "all",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.useTabs": true,
+	"bracketPairColorizer.depreciation-notice": false,
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"window.commandCenter": true,
+	"editor.minimap.autohide": true,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"editor.guides.bracketPairs": true,
+	"oracledevtools.bookmarkFileFolder": "C:\\Users\\sumit\\Oracle\\oracle.oracledevtools",
+	"oracledevtools.download.otherFolder": "C:\\Users\\sumit\\downloads",
+	"oracledevtools.connectionConfiguration.configFilesFolder": "C:\\Users\\sumit\\Oracle\\network\\admin",
+	"oracledevtools.connectionConfiguration.walletFileFolder": "C:\\Users\\sumit\\Oracle\\network\\admin",
+	"oracledevtools.connections": [
+		{
+			"authenticationType": 2,
+			"dBAPrivilege": "None",
+			"userID": "SYSTEM",
+			"passwordSaved": false,
+			"dataSource": "127.0.0.1:1521/XE",
+			"connectionType": 2,
+			"databaseHostName": "127.0.0.1",
+			"databasePortNumber": "1521",
+			"databaseServiceName": "XE",
+			"name": "SYSTEM.XE",
+			"currentSchema": "",
+			"tnsAdmin": "C:\\Users\\sumit\\Oracle\\network\\admin"
+		}
+	],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"[python]": {
+		"editor.formatOnType": true,
+		"editor.defaultFormatter": "ms-python.python"
+	},
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java"
+	},
+	"redhat.telemetry.enabled": true,
+	"php.validate.executablePath": "C:/xampp/php/php.exe",
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"editor.wordWrap": "on"
+}
