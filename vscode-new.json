@@ -1,6 +1,6 @@
 {
-	"workbench.iconTheme": "a-file-icon-vscode",
-	"editor.fontFamily": "Cascadia Code",
+	"workbench.iconTheme": "catppuccin-mocha",
+	"editor.fontFamily": "\"JetBrains Mono\"",
 	"editor.fontLigatures": true,
 	"code-runner.runInTerminal": true,
 	"[html]": {
@@ -11,7 +11,7 @@
 		"javascript": "javascriptreact"
 	},
 	"tabnine.experimentalAutoImports": true,
-	"editor.fontSize": 18,
+	"editor.fontSize": 16,
 	"editor.cursorBlinking": "smooth",
 	"code-runner.clearPreviousOutput": true,
 	"C_Cpp.updateChannel": "Insiders",
@@ -41,7 +41,6 @@
 	"terminal.integrated.tabs.location": "left",
 	"gitlens.defaultDateFormat": null,
 	"debug.javascript.autoAttachFilter": "disabled",
-	"files.autoSave": "afterDelay",
 	"vim.handleKeys": {
 		"<C-c>": false,
 		"<C-v>": false,
@@ -65,7 +64,7 @@
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"window.commandCenter": true,
-	"editor.minimap.autohide": true,
+	"editor.minimap.autohide": "mouseover",
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"editor.guides.bracketPairs": true,
 	"oracledevtools.bookmarkFileFolder": "C:\\Users\\sumit\\Oracle\\oracle.oracledevtools",
@@ -89,7 +88,6 @@
 		}
 	],
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnSave": true,
 	"[cpp]": {
 		"editor.defaultFormatter": "ms-vscode.cpptools"
 	},
@@ -101,9 +99,19 @@
 		"editor.defaultFormatter": "redhat.java"
 	},
 	"redhat.telemetry.enabled": true,
-	"php.validate.executablePath": "C:/xampp/php/php.exe",
 	"[php]": {
 		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
 	},
-	"editor.wordWrap": "on"
+	"editor.wordWrap": "on",
+	"github.copilot.nextEditSuggestions.enabled": false,
+	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false,
+		"javascript": false
+	},
+	"files.autoSave": "afterDelay",
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"editor.formatOnSave": true
 }
